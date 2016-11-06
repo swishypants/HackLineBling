@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    padding-left:10%;
+    padding-right:10%;
+
+    /* drake */
+    background-image: url("/public/img/drake.gif");
+	background-size: cover;
+	cursor: url(http://cur.cursors-4u.net/people/peo-8/peo939.cur), progress !important;
+}
+
+.header {
+    padding-top: 8%;
+    text-shadow: 0 1px white;
+}
+
+/* blink colors */
+.blink {
+    animation-duration: 200ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation:blink 200ms infinite; /* Safari and Chrome */
+}
+
+@keyframes blink {
+    0% {
+        color:#00ffff;
+    }
+    50% {
+        color:#ff7bac;
+    }
+    100% {
+    	color:#00ffff;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        color:#00ffff;
+    }
+    50% {
+        color:#ff7bac ;
+    }
+    100% {
+    	color:#00ffff;
+    }
+}
+
+/* drake cursor */
+/* body, a:hover {cursor: url(http://cur.cursors-4u.net/people/peo-8/peo939.cur), progress !important;}*/
